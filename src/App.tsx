@@ -37,7 +37,9 @@ function App(): JSX.Element {
       return;
     }
     if (runningRef.current) {
-      runningRef.current.requestFullscreen();
+      runningRef.current.requestFullscreen({
+        navigationUI: "hide",
+      });
     }
     const interval = setInterval(() => {
       setState((state) => ({
