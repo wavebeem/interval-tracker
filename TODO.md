@@ -1,0 +1,4 @@
+- Test out viewport-fit=cover on multiple devices (iOS simulator? Android developer menu)
+- Test out background vibrations
+- Show basic UI during run
+- Make vibrations happen at appropriate time
